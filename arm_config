@@ -1,0 +1,17 @@
+#kaniko 配置文件
+
+#统一编译的路径
+compile_directory:
+
+#编译出来的二进制文件的路径；dockerfile路径；container image名称
+
+build_image_info_1:/out/executor;/Dockerfile.executor;kaniko-executor
+
+binary_path_in_dockerfile:/out
+
+image_tag:0.13
+
+
+###############
+#docker私有仓库url
+docker regisstry:213.146.155.118:5000
